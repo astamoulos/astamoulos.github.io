@@ -1,19 +1,18 @@
 ---
-title: "Hey, I am John Doe!"
-meta_title: "About"
-description: "this is meta description"
+title: "Σχετικά με εμένα"
+meta_title: "Σχετικά"
+description: "Η φιλοσοφία μου στη διατροφή βασίζεται στην ολιστική προσέγγιση και την ανθρώπινη υποστήριξη."
 image: "/images/image-placeholder.png"
 draft: false
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
+Είμαι διαιτολόγος - διατροφολόγος και βοηθώ ανθρώπους να βρουν μια πιο ήρεμη και ισορροπημένη σχέση με το φαγητό. Κάθε πλάνο που σχεδιάζω είναι προσαρμοσμένο στις ανάγκες, τις συνήθειες και τον ρυθμό ζωής του κάθε ανθρώπου.
 
-### This is a title
+### Τι θα βρείτε στη συνεργασία μας
 
-* Lorem ipsum, dolor sit amet
-* Enim voluptatem dicta expedita veritatis
-* Fugit voluptatibus perspiciatis assumenda
-* Enim voluptatem dicta expedita
-* Corporis illum nesciunt commodi vel
+* Επιστημονική καθοδήγηση με πρακτικές λύσεις
+* Ρεαλιστικό πλάνο χωρίς υπερβολικούς περιορισμούς
+* Σταδιακές αλλαγές που γίνονται τρόπος ζωής
+* Σταθερή παρακολούθηση και εξατομίκευση
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
+Στόχος μου είναι να χτίσουμε μαζί ένα μοντέλο διατροφής που θα σας στηρίζει μακροπρόθεσμα. Με σεβασμό στις ανάγκες σας και χωρίς ενοχές, η διατροφή μπορεί να γίνει εργαλείο υγείας, ενέργειας και αυτοφροντίδας.

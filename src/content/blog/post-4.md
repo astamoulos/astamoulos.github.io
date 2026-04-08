@@ -1,12 +1,12 @@
 ---
-title: "How to build an Application with modern Technology"
-meta_title: ""
-description: "this is meta description"
-date: 2022-04-04T05:00:00Z
+title: "Ενυδάτωση και ευεξία: ένας πρακτικός οδηγός"
+meta_title: "Πώς να βελτιώσετε την ενυδάτωση"
+description: "Πρακτικές ιδέες για να ενισχύσετε την ενυδάτωση και τη συνολική ευεξία σας."
+date: 2024-08-12T05:00:00Z
 image: "/images/image-placeholder.png"
-categories: ["Architecture"]
+categories: ["Ευεξία", "Tips"]
 author: "John Doe"
-tags: ["silicon", "technology"]
+tags: ["ενυδάτωση", "ευεξία"]
 draft: false
 ---
 

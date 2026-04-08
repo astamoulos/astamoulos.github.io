@@ -10,6 +10,17 @@ import sharp from "sharp";
 import config from "./src/config/config.json";
 import theme from "./src/config/theme.json";
 
+const [githubOwner, githubRepo] =
+  (process.env.GITHUB_REPOSITORY || "").split("/");
+const isGithubPagesBuild =
+  process.env.GITHUB_ACTIONS === "true" && Boolean(githubOwner && githubRepo);
+const isUserOrOrgPagesRepo =
+  githubRepo?.toLowerCase() === `${githubOwner?.toLowerCase()}.github.io`;
+const githubPagesSite = githubOwner
+  ? `https://${githubOwner}.github.io`
+  : config.site.base_url;
+const githubPagesBase = isUserOrOrgPagesRepo ? "/" : `/${githubRepo}/`;
+
 // Helper to parse font string format: "FontName:wght@400;500;600;700"
 function parseFontString(fontStr) {
   const [name, weightPart] = fontStr.split(":");
@@ -48,8 +59,16 @@ const fontsConfig = Object.entries(theme.fonts.font_family)
 
 // https://astro.build/config
 export default defineConfig({
-  site: config.site.base_url ? config.site.base_url : "http://examplesite.com",
-  base: config.site.base_path ? config.site.base_path : "/",
+  site: isGithubPagesBuild
+    ? githubPagesSite
+    : config.site.base_url
+      ? config.site.base_url
+      : "http://examplesite.com",
+  base: isGithubPagesBuild
+    ? githubPagesBase
+    : config.site.base_path
+      ? config.site.base_path
+      : "/",
   trailingSlash: config.site.trailing_slash ? "always" : "never",
   image: { service: sharp() },
   vite: { plugins: [tailwindcss()] },

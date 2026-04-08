@@ -1,12 +1,12 @@
 ---
-title: "How to build an Application with modern Technology"
-meta_title: ""
-description: "this is meta description"
-date: 2022-04-04T05:00:00Z
+title: "Μεταβολισμός: τι τον επηρεάζει πραγματικά"
+meta_title: "Μεταβολισμός και καθημερινές συνήθειες"
+description: "Μύθοι και αλήθειες για τον μεταβολισμό και πώς μπορείτε να τον υποστηρίξετε."
+date: 2024-07-01T05:00:00Z
 image: "/images/image-placeholder.png"
-categories: ["Software"]
+categories: ["Μεταβολισμός", "Tips"]
 author: "John Doe"
-tags: ["software", "tailwind"]
+tags: ["μεταβολισμός", "συνήθειες"]
 draft: false
 ---
 

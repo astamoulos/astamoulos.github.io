@@ -1,7 +1,7 @@
 ---
-title: "Blog Posts"
-meta_title: ""
-description: "this is meta description"
+title: "Άρθρα"
+meta_title: "Άρθρα Διατροφής"
+description: "Χρήσιμα άρθρα για διατροφή, ευεξία και καθημερινές πρακτικές συμβουλές."
 image: ""
 draft: false
 ---

@@ -1,12 +1,12 @@
 ---
-title: "How to build an Application with modern Technology"
-meta_title: ""
-description: "this is meta description"
-date: 2022-04-04T05:00:00Z
+title: "5 τρόποι να αυξήσετε την ενέργειά σας μέσα στην ημέρα"
+meta_title: "5 τρόποι για περισσότερη ενέργεια"
+description: "Μικρές καθημερινές αλλαγές στη διατροφή που βοηθούν να νιώθετε περισσότερη ενέργεια."
+date: 2024-05-20T05:00:00Z
 image: "/images/image-placeholder.png"
-categories: ["Application", "Data"]
+categories: ["Διατροφή", "Ευεξία"]
 author: "John Doe"
-tags: ["nextjs", "tailwind"]
+tags: ["ενέργεια", "καθημερινότητα"]
 draft: false
 ---
 

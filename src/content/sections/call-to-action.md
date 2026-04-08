@@ -1,10 +1,10 @@
 ---
 enable: true
-title: "Ready to build your next project with Astro?"
+title: "Προσωποποιημένη φροντίδα με σεβασμό στις ανάγκες σας"
 image: "/images/call-to-action.png"
-description: "Experience the future of web development with Astroplate and Astro. Build lightning-fast static sites with ease and flexibility."
+description: "Η φιλοσοφία μου βασίζεται στην ολιστική προσέγγιση: διατροφή, τρόπος ζωής και ψυχολογία συνεργάζονται για βιώσιμη αλλαγή. Στόχος μας δεν είναι μια σύντομη δίαιτα, αλλά μια καλύτερη καθημερινότητα με ισορροπία."
 button:
   enable: true
-  label: "Fork Deploy and Edit Online 🚀"
-  link: "https://app.sitepins.com/new/clone?name=Astroplate&repository=https://github.com/zeon-studio/astroplate"
+  label: "Μάθετε περισσότερα"
+  link: "/about"
 ---

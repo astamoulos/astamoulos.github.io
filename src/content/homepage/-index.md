@@ -1,53 +1,49 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Astro Project"
-  content: "Astroplate is a free starter template built with Astro and TailwindCSS, providing everything you need to jumpstart your Astro project and save valuable time."
-  image: "/images/banner.png"
+  title: "Ολιστική προσέγγιση στη διατροφή για μια καλύτερη ζωή."
+  content: "Με επιστημονική καθοδήγηση και ανθρώπινη φροντίδα, δημιουργούμε μαζί ένα πλάνο διατροφής που ταιριάζει στον τρόπο ζωής και τους στόχους σας."
+  image: "/images/image-placeholder.png"
   button:
     enable: true
-    label: "Fork Deploy and Edit Online 🚀"
-    link: "https://app.sitepins.com/new/clone?name=Astroplate&repository=https://github.com/zeon-studio/astroplate/"
+    label: "Κλείσε Ραντεβού"
+    link: "/contact"
 
 # Features
 features:
-  - title: "What's Included in Astroplate"
+  - title: "Απώλεια Βάρους"
     image: "/images/service-1.png"
-    content: "Astroplate is a comprehensive starter template that includes everything you need to get started with your Astro project. What's Included in Astroplate"
+    content: "Εξατομικευμένο πρόγραμμα με ρεαλιστικούς στόχους, χωρίς στερήσεις και με έμφαση στη διάρκεια του αποτελέσματος."
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Astro and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
-    button:
-      enable: false
-      label: "Get Started Now"
-      link: "#"
-
-  - title: "Discover the Key Features Of Astro"
-    image: "/images/service-2.png"
-    content: "Astro is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
-    bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "Ανάλυση συνηθειών και μεταβολισμού"
+      - "Διατροφικό πλάνο προσαρμοσμένο στην καθημερινότητα"
+      - "Συστηματική παρακολούθηση και υποστήριξη"
     button:
       enable: true
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/astroplate"
+      label: "Δείτε υπηρεσίες"
+      link: "/services"
 
-  - title: "The Top Reasons to Choose Astro for Your Next Project"
-    image: "/images/service-3.png"
-    content: "With Astro, you can build modern and content-focused websites without sacrificing performance or ease of use."
+  - title: "Αθλητική Διατροφή"
+    image: "/images/service-2.png"
+    content: "Διατροφή για ενέργεια, απόδοση και αποκατάσταση πριν και μετά την άσκηση, για ερασιτέχνες και επαγγελματίες αθλητές."
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Astro a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "Στρατηγική timing γευμάτων"
+      - "Υποστήριξη προ- και μετα-προπονητικής διατροφής"
+      - "Προσαρμογές σε περιόδους έντονης προπόνησης"
     button:
-      enable: false
-      label: ""
-      link: ""
+      enable: true
+      label: "Δείτε υπηρεσίες"
+      link: "/services"
+
+  - title: "Κλινική Διαιτολογία"
+    image: "/images/service-3.png"
+    content: "Διατροφική υποστήριξη σε ειδικές κλινικές καταστάσεις με έμφαση στην υγεία, τη συμμόρφωση και τη βελτίωση της ποιότητας ζωής."
+    bulletpoints:
+      - "Διατροφή για διαβήτη, δυσλιπιδαιμία και υπέρταση"
+      - "Πρακτικές λύσεις για την καθημερινότητα"
+      - "Συνεργασία με τον θεράποντα ιατρό όπου χρειάζεται"
+    button:
+      enable: true
+      label: "Δείτε υπηρεσίες"
+      link: "/services"
 ---

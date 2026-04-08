@@ -1,5 +1,7 @@
 ---
 import config from "@/config/config.json";
+import social from "@/config/social.json";
+import Social from "@/components/Social.astro";
 import Base from "@/layouts/Base.astro";
 import { getListPage } from "@/lib/contentParser.astro";
 import PageHeader from "@/partials/PageHeader.astro";
@@ -22,49 +24,68 @@ if (contactIndex.data.draft) {
   <PageHeader title={title} />
   <section class="section-sm">
     <div class="container">
-      <div class="row">
+      <div class="row gap-y-10">
         <div class="mx-auto md:col-10 lg:col-6">
           <form action={contact_form_action} method="POST">
             <div class="mb-6">
               <label for="name" class="form-label">
-                Full Name <span class="text-red-500">*</span>
+                Ονοματεπώνυμο <span class="text-red-500">*</span>
               </label>
               <input
                 id="name"
                 name="name"
                 class="form-input"
-                placeholder="John Doe"
+                placeholder="Το όνομά σας"
                 type="text"
                 required
               />
             </div>
             <div class="mb-6">
               <label for="email" class="form-label">
-                Working Mail <span class="text-red-500">*</span>
+                Email <span class="text-red-500">*</span>
               </label>
               <input
                 id="email"
                 name="email"
                 class="form-input"
-                placeholder="john.doe@email.com"
+                placeholder="name@example.com"
                 type="email"
                 required
               />
             </div>
             <div class="mb-6">
               <label for="message" class="form-label">
-                Anything else? <span class="text-red-500">*</span>
+                Μήνυμα <span class="text-red-500">*</span>
               </label>
               <textarea
                 id="message"
                 name="message"
                 class="form-input"
-                placeholder="Message goes here..."
+                placeholder="Πείτε μου λίγα λόγια για τον στόχο σας..."
                 required
                 rows="8"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">Αποστολή</button>
           </form>
+
+          <div class="mt-10 rounded bg-light p-6 dark:bg-darkmode-light">
+            <h3 class="h5 mb-3">Ακολουθήστε με στα social</h3>
+            <Social source={social.main} className="social-icons" />
+          </div>
+        </div>
+
+        <div class="mx-auto md:col-10 lg:col-6">
+          <div class="rounded bg-light p-4 dark:bg-darkmode-light">
+            <h3 class="h5 mb-4 px-2 pt-2">Το γραφείο στον χάρτη</h3>
+            <iframe
+              title="Google Maps"
+              class="h-[380px] w-full rounded border-0"
+              allowfullscreen
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3084.671950747229!2d22.949757299999995!3d39.363664899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21759bf2ac5c318d%3A0xc791db0dc99e4653!2zzpzOsc-BzrnOu86_z40gzqPPhM6xzrzOv8-NzrvOv8-FIC0gTXlOdXRyaWhvbWU!5e0!3m2!1sel!2sgr!4v1775639732610!5m2!1sel!2sgr">
+            </iframe>
+          </div>
         </div>
       </div>
     </div>

@@ -1,42 +1,42 @@
 {
   "site": {
-    "title": "Astroplate",
-    "base_url": "https://astroplate.netlify.app",
+    "title": "mynutrihome",
+    "base_url": "https://nutrition-demo.netlify.app",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
-    "logo_darkmode": "/images/logo-darkmode.png",
-    "logo_width": "150",
-    "logo_height": "30",
-    "logo_text": "Astroplate"
+    "favicon": "/images/pink.png",
+    "logo": "/images/pink.png",
+    "logo_darkmode": "/images/pink.png",
+    "logo_width": "58",
+    "logo_height": "62",
+    "logo_text": "mynutrihome"
   },
 
   "settings": {
     "search": true,
     "sticky_header": true,
-    "theme_switcher": true,
-    "default_theme": "system",
+    "theme_switcher": false,
+    "default_theme": "light",
     "pagination": 2,
     "summary_length": 200,
     "blog_folder": "blog"
   },
 
   "announcement": {
-    "enable": true,
-    "content": "<span class='text-center block'>♥️ Loving Astroplate? <a class='underline' href='https://github.com/zeon-studio/astroplate' target='_blank' rel='noopener'>Please ⭐️ on Github</a></span>",
+    "enable": false,
+    "content": "",
     "expire_days": 7
   },
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Designed And Developed by [Zeon Studio](https://zeon.studio)"
+    "copyright": "© 2026 mynutrihome. Με επιστημονική φροντίδα και σεβασμό στον άνθρωπο."
   },
 
   "navigation_button": {
     "enable": true,
-    "label": "Github",
-    "link": "https://github.com/zeon-studio/astroplate"
+    "label": "Κλείσε Ραντεβού",
+    "link": "/contact"
   },
 
   "google_tag_manager": {
@@ -45,14 +45,14 @@
   },
 
   "disqus": {
-    "enable": true,
+    "enable": false,
     "shortname": "themefisher-template",
     "settings": {}
   },
 
   "metadata": {
-    "meta_author": "zeon.studio",
+    "meta_author": "mynutrihome",
     "meta_image": "/images/og-image.png",
-    "meta_description": "astro and tailwind boilerplate"
+    "meta_description": "Ολιστική διατροφική καθοδήγηση για απώλεια βάρους, αθλητική απόδοση και κλινική υποστήριξη."
   }
 }

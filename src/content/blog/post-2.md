@@ -1,12 +1,12 @@
 ---
-title: "How to build an Application with modern Technology"
-meta_title: ""
-description: "this is meta description"
-date: 2022-04-04T05:00:00Z
+title: "Σνακ που βοηθούν στον έλεγχο της πείνας"
+meta_title: "Ιδέες για υγιεινά σνακ"
+description: "Επιλογές για έξυπνα σνακ που στηρίζουν τη σταθερότητα του σακχάρου και τον κορεσμό."
+date: 2024-06-05T05:00:00Z
 image: "/images/image-placeholder.png"
-categories: ["Technology", "Data"]
+categories: ["Συνταγές", "Tips"]
 author: "Sam Wilson"
-tags: ["technology", "tailwind"]
+tags: ["snacks", "κορεσμός"]
 draft: false
 ---
 

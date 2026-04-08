@@ -1,7 +1,7 @@
 ---
-title: "Contact"
-description: "this is meta description"
-meta_title: ""
+title: "Επικοινωνία"
+description: "Κλείστε το ραντεβού σας ή στείλτε μήνυμα για να συζητήσουμε τις ανάγκες σας."
+meta_title: "Επικοινωνία"
 image: ""
 draft: false
 ---

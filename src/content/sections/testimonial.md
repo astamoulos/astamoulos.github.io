@@ -1,27 +1,27 @@
 ---
 enable: true
-title: "What Users Are Saying About Astroplate"
-description: "Don't just take our word for it - hear from some of our satisfied users!  Check out some of our testimonials below to see what others are saying about Astroplate."
+title: "Τι λένε οι άνθρωποι που συνεργαστήκαμε"
+description: "Η εμπιστοσύνη χτίζεται μέσα από πραγματικά αποτελέσματα. Μερικές εμπειρίες πελατών που είδαν ουσιαστική αλλαγή στην καθημερινότητά τους."
 
 # Testimonials
 testimonials:
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+  - name: "Ελένη Π."
+    designation: "Απώλεια Βάρους"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "Μέσα σε λίγους μήνες έχασα βάρος χωρίς εξαντλητικές δίαιτες. Το πλάνο ήταν ρεαλιστικό και με βοήθησε να αλλάξω συνήθειες μόνιμα."
 
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+  - name: "Γιώργος Κ."
+    designation: "Αθλητική Διατροφή"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "Η διατροφή μου μπήκε σε τάξη και η απόδοσή μου στην προπόνηση βελτιώθηκε αισθητά. Ένιωθα ενέργεια σε κάθε στάδιο της ημέρας."
 
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+  - name: "Μαρία Τ."
+    designation: "Κλινική Διαιτολογία"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "Με ξεκάθαρες οδηγίες και σταθερή παρακολούθηση κατάφερα να οργανώσω τα γεύματά μου και να νιώθω πολύ καλύτερα στην καθημερινότητα."
 
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+  - name: "Νίκος Σ."
+    designation: "Online Συνεδρίες"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "Παρότι μένω εκτός Αθήνας, οι online συνεδρίες ήταν εξαιρετικές. Υπήρχε συνέπεια, υποστήριξη και ξεκάθαρο πλάνο σε κάθε βήμα."
 ---
