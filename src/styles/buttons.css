@@ -1,5 +1,5 @@
 .btn {
-  @apply inline-block rounded border border-transparent px-5 py-2 font-semibold transition;
+  @apply inline-block rounded border border-transparent px-5 py-2 font-semibold transition duration-200;
 }
 
 .btn-sm {
@@ -8,8 +8,18 @@
 
 .btn-primary {
   @apply border-primary bg-primary dark:border-darkmode-primary dark:text-text-dark text-white dark:bg-darkmode-primary;
+  box-shadow: 0 10px 24px rgba(237, 106, 90, 0.25);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px) scale(1.01);
+  box-shadow: 0 14px 30px rgba(237, 106, 90, 0.32);
 }
 
 .btn-outline-primary {
   @apply border-dark text-text-dark hover:bg-dark dark:hover:text-text-dark bg-transparent hover:text-white dark:border-darkmode-primary dark:text-white dark:hover:bg-darkmode-primary;
+}
+
+.btn-outline-primary:hover {
+  transform: translateY(-2px);
 }

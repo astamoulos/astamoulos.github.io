@@ -53,9 +53,17 @@ const swiperOptions: SwiperOptions = {
                     content: string;
                     name: string;
                     designation: string;
-                  }) => (
+                  }, index: number) => (
                     <SwiperSlide>
-                      <div class="rounded-lg bg-light px-7 py-10 dark:bg-darkmode-light">
+                      <div
+                        class={`testimonial-card rounded-lg px-7 py-10 dark:bg-darkmode-light ${
+                          index % 3 === 0
+                            ? "bg-[#fff2ec]"
+                            : index % 3 === 1
+                              ? "bg-[#fff6e8]"
+                              : "bg-light"
+                        }`}
+                      >
                         <div class="text-text-dark dark:text-white">
                           <svg
                             width="33"
