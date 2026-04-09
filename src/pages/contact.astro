@@ -1,5 +1,4 @@
 ---
-import config from "@/config/config.json";
 import social from "@/config/social.json";
 import Social from "@/components/Social.astro";
 import Base from "@/layouts/Base.astro";
@@ -7,7 +6,6 @@ import { getListPage } from "@/lib/contentParser.astro";
 import PageHeader from "@/partials/PageHeader.astro";
 
 const contactIndex = await getListPage("contact", "-index");
-const { contact_form_action }: { contact_form_action: string } = config.params;
 const { title, description, meta_title, image } = contactIndex.data;
 
 if (contactIndex.data.draft) {
@@ -26,51 +24,15 @@ if (contactIndex.data.draft) {
     <div class="container">
       <div class="row gap-y-10">
         <div class="mx-auto md:col-10 lg:col-6">
-          <form action={contact_form_action} method="POST">
-            <div class="mb-6">
-              <label for="name" class="form-label">
-                Ονοματεπώνυμο <span class="text-red-500">*</span>
-              </label>
-              <input
-                id="name"
-                name="name"
-                class="form-input"
-                placeholder="Το όνομά σας"
-                type="text"
-                required
-              />
-            </div>
-            <div class="mb-6">
-              <label for="email" class="form-label">
-                Email <span class="text-red-500">*</span>
-              </label>
-              <input
-                id="email"
-                name="email"
-                class="form-input"
-                placeholder="name@example.com"
-                type="email"
-                required
-              />
-            </div>
-            <div class="mb-6">
-              <label for="message" class="form-label">
-                Μήνυμα <span class="text-red-500">*</span>
-              </label>
-              <textarea
-                id="message"
-                name="message"
-                class="form-input"
-                placeholder="Πείτε μου λίγα λόγια για τον στόχο σας..."
-                required
-                rows="8"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Αποστολή</button>
-          </form>
-
-          <div class="mt-10 rounded bg-light p-6 dark:bg-darkmode-light">
-            <h3 class="h5 mb-3">Ακολουθήστε με στα social</h3>
-            <Social source={social.main} className="social-icons" />
+          <div class="rounded bg-light p-4 dark:bg-darkmode-light">
+            <h3 class="h5 mb-4 px-2 pt-2">Φόρμα Επικοινωνίας</h3>
+            <iframe
+              title="Google Contact Form"
+              src="https://docs.google.com/forms/d/e/1FAIpQLSdQ57aw07G2MIjat2Aosd8sE61X0RvIhk95S9gqhjFXEHfukA/viewform?embedded=true"
+              class="h-[920px] w-full rounded border-0"
+              loading="lazy"
+            >
+            </iframe>
           </div>
         </div>
 
@@ -85,6 +47,11 @@ if (contactIndex.data.draft) {
               referrerpolicy="no-referrer-when-downgrade"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3084.671950747229!2d22.949757299999995!3d39.363664899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21759bf2ac5c318d%3A0xc791db0dc99e4653!2zzpzOsc-BzrnOu86_z40gzqPPhM6xzrzOv8-NzrvOv8-FIC0gTXlOdXRyaWhvbWU!5e0!3m2!1sel!2sgr!4v1775639732610!5m2!1sel!2sgr">
             </iframe>
+          </div>
+
+          <div class="mt-10 rounded bg-light p-6 dark:bg-darkmode-light">
+            <h3 class="h5 mb-3">Ακολουθήστε με στα social</h3>
+            <Social source={social.main} className="social-icons" />
           </div>
         </div>
       </div>
